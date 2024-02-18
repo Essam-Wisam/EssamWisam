@@ -10,6 +10,7 @@ import FeaturedPage from './Pages/FeaturedPage/FeaturedPage';
 import EducationPage from './Pages/EducationPage/EducationPage';
 import RecommendationsPage from './Pages/RecommendationsPage/RecommendationsPage';
 import Footer from './Common/Footer/Footer';
+import { Fade } from "react-swift-reveal";
 //import data
 import { generalSetup } from './PagesData/GeneralData';
 import { navbarData, navbarStyles } from './PagesData/NavigationBarData';
@@ -45,14 +46,14 @@ const App: React.FC = () => {
   return (
     <div>
       <NavigationBar navbarData={navbarData} navbarStyles={navbarStyles} />
-      <HeroPage heroData={heroData} heroStyles={heroStyles}/>
-      <TimelinePage timelineData={timelineData} timelineHeader={timelineHeader} timelineStyles={timelineStyles} />
-      <SkillsPage skillsStyles={skillsStyles} skillsHeader={skillsHeader} softSkillsData={softSkillsData} techSkillsData={techSkillsData}/>
-      <ProjectsPage projectHeader={projectHeader} projectStyles={projectStyles} projectData={projectData}  />
-      <EducationPage educationData={educationData} educationHeader={educationHeader} educationStyles={educationStyles} />
-      <ProjectsPage projectHeader={blogHeader} projectStyles={blogStyles} projectData={blogData}  />
-      <FeaturedPage featuredData={featuredData} featuredHeader={featuredHeader} featuredStyles={featuredStyles} />
-      <RecommendationsPage recommendationsData={recommendationsData} recommendationsHeader={recommendationsHeader} recommendationsStyles={recommendationsStyles} />
+      <Fade><HeroPage heroData={heroData} heroStyles={heroStyles}/></Fade>
+      <Fade><TimelinePage timelineData={timelineData} timelineHeader={timelineHeader} timelineStyles={timelineStyles} /></Fade>
+      <Fade><SkillsPage skillsStyles={skillsStyles} skillsHeader={skillsHeader} softSkillsData={softSkillsData} techSkillsData={techSkillsData}/></Fade>
+      <Fade><ProjectsPage projectHeader={projectHeader} projectStyles={projectStyles} projectData={projectData}  /></Fade>
+      <Fade><EducationPage educationData={educationData} educationHeader={educationHeader} educationStyles={educationStyles} /></Fade>
+      <Fade><ProjectsPage projectHeader={blogHeader} projectStyles={blogStyles} projectData={blogData}  /></Fade>
+      <Fade><FeaturedPage featuredData={featuredData} featuredHeader={featuredHeader} featuredStyles={featuredStyles} /></Fade>
+      <Fade><RecommendationsPage recommendationsData={recommendationsData} recommendationsHeader={recommendationsHeader} recommendationsStyles={recommendationsStyles} /></Fade>
       <Footer heroData={heroData}/>
     </div>
   );
