@@ -17,16 +17,16 @@ export const recommendationsHeader = {
 
   export const recommendationsData = [
     {
-      "name": "Hossam Saeed",
-      "role": "Research Fellow @ MIT-SGI",
-      "date": "November 2022",
-      "quote": "I have met people who are technically good at what they do, and have met those who are great at helping others. Esssam took both traits to a whole new level.",
+      "name": "Ahmed Ihab",
+      "role": "DevOps Engineer @_VOIS",
+      "date": "February 2024",
+      "quote": "Essam operates in a realm where the concept of 'impossible' holds no sway. When working alongside Essam, one can rest assured that every task will be expertly managed, surpassing expectations effortlessly.",
       "link": "https://www.linkedin.com/in/essamwisam/details/recommendations/?detailScreenTabIndex=0",
       "img": ""
     },
     {
       "name": "Mohamed Saad",
-      "role": "AI Researcher @ Compumacy",
+      "role": "Research Asistant @ DFKI",
       "date": "October 2022",
       "quote": "Essam is one of the few people that has a direct connection to the innovation wonderland, and believe me it is surprising to see that machinery works in front of you, he just never runout of good ideas.",
       "link": "https://www.linkedin.com/in/essamwisam/details/recommendations/?detailScreenTabIndex=0",
@@ -34,7 +34,7 @@ export const recommendationsHeader = {
     },
     {
       "name": "Taher Mohamed",
-      "role": "TA @ Cairo University",
+      "role": "Backend Engineer @ Coformatique",
       "date": "March 2023",
       "quote": "It was a great chance to work with him and witness firsthand the incredible expertise and dedication that he brings to the table.",
       "link": "https://www.linkedin.com/in/essamwisam/details/recommendations/?detailScreenTabIndex=0",

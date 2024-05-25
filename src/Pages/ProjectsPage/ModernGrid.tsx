@@ -1,8 +1,6 @@
 import React from 'react';
 import './ModernGrid.scss';
 
-//@ts-ignore
-import * as FaIcons from "react-icons/fa";
 
 interface DataItem {
     image: string;
@@ -30,10 +28,6 @@ interface DataItem {
         {filteredData.map((item, index) => (
           <div className="grid-item" key={index}>     
             {item.special && <div className="special">{item.special}</div>}       
-            <a href={item.github_link}>
-            {/* @ts-ignore */}
-            {React.createElement(FaIcons[icon], { size: 35, id: 'project-icon' , style: {paddingRight:'3px', paddingTop:'3px'}, color: 'white', background:'black' })}
-            </a>
             <a href={item.link}>
               <img src={item.image} alt="" />
               <div className="item-title">

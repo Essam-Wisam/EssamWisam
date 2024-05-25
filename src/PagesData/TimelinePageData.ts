@@ -50,7 +50,7 @@ export const timelineData = [
   {
     id: 3,
     role: "Machine Learning Engineer",
-    company: "The Julia Language",
+    company: "The Julia Language (GSoC)",
     date: "Jun-Oct 2023",
     description: [
       "Created the Imbalance.jl and MLJBalancing.jl packages for JuliaAI and implemented over 11 oversampling and undersampling algorithms from the literature to address class imbalance.",
@@ -67,7 +67,34 @@ export const timelineData = [
     company: "German Research Center of AI",
     date: "Nov 2023-Now",
     description: [
-      "Assisting in research tasks related to large language models and natural language processing as well as teaching tasks related to large language models (creating slides and exercises).",
+      "Served as a teaching assistant for an Engineering with Large Language Models course where I assisted in creating slides, exercises and semester project for students.",
+      "Assisted in LLM research in the scope of automating the creation of MCQ tests",
+      "Conducted research experiments for the use of Vision Transformer autoencoder models on tabular survey data",
+      "Collaborated in JuliaAI by redesigning the website for DataScienceTutorials.jl and improving the datascience tutorials therein."
+    ],
+    buttonText: "",
+    buttonLink: "",
+  },
+  {
+    id: 5,
+    role: "Teaching Assistant",
+    company: "Cairo University Faculty of Engineering",
+    date: "Feb-May 2024",
+    description: [
+      "Created over six lab assignments that cover implementing over ten machine learning algorithms from scratch (including generic backpropagation)",
+      "Made and taught complete series of tutorials on machine learning toolboxes used in research and industry including Scikit-learn, PyTorch, TensorFlow/Keras* as well as other tutorials to illustrate crucial concepts from the lectures",
+      "Grading and discusses quizzes, lab assignments and exams and other TA duties",
+    ],
+    buttonText: "See Some Material ▶",
+    buttonLink: "https://github.com/EssamWisam/Applied-Machine-Learning-CU",
+  },
+  {
+    id: 6,
+    role: "Machine Learning Engineer",
+    company: "The Julia Language (GSoC)",
+    date: "May 2024-Now",
+    description: [
+      "Ought to be bringing state-of-the-art machine and deep learning categorical encoding techniques to Julia.",
     ],
     buttonText: "",
     buttonLink: "",
