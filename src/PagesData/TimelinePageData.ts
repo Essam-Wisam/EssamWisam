@@ -8,7 +8,7 @@ export const timelineHeader = {
 
 export const timelineStyles = {
   "center": false,
-  "theme": rand({"HorizontalTimeline":0.65, "LongtidunalTimeline":0.35}),
+  "theme": rand({ "HorizontalTimeline": 0.85, "LongtidunalTimeline": 0.15 }),
 }
 
 export const timelineData = [
