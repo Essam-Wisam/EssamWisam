@@ -13,18 +13,6 @@ export const timelineStyles = {
 
 export const timelineData = [
   {
-    id: 0,
-    role: "Cross-platform Developer",
-    company: "Freelance",
-    date: "Jul-Sep 2022",
-    description: [
-      'Built and deployed a quiz mobile app and corresponding website "KeyTeachingKnowledge" for graduate students learning to teach English in Morocco.',
-      'Built and deployed a mobile app for daily logging with statistics, Eisenhower matrix task tracking and methodic note-taking "Daily Chronicle".',
-    ],
-    buttonText: "See Example ▶",
-    buttonLink: "https://github.com/EssamWisam/Daily-Chronicle-ReactNative",
-  },
-  {
     id: 1,
     role: "Technical Writer",
     company: "Towards Data Science",
@@ -94,7 +82,20 @@ export const timelineData = [
     company: "The Julia Language (GSoC)",
     date: "May 2024-Now",
     description: [
-      "Ought to be bringing state-of-the-art machine and deep learning categorical encoding techniques to Julia.",
+      "Developed MLJTransforms.jl, extending MLJ with contrast categorical, ordinal, frequency, and target encoding. Built transformers for high-cardinality and missing data.",
+      "Implemented EntityEmbedding in MLJFlux.jl and revamped its documentation."
+    ],
+    buttonText: "",
+    buttonLink: "",
+  },
+  {
+    id: 7,
+    role: "LLMs Engineer",
+    company: "HyperSolutions",
+    date: "July 2024-Now",
+    description: [
+      "Designing and developing large language models systems including various retrieval augmented generation techniques, high-order agentic models, voice models, computer-use models, and classification systems.",
+      "Occasionally developing frontends to serve the LLM systems and in some instances, aiding in demonstrating them to customers"
     ],
     buttonText: "",
     buttonLink: "",

@@ -3,11 +3,11 @@ import { rand } from "../Pages/utils";
 export const heroData = {
   id: "Home",
 
-  images: ["https://i.imgur.com/QNxLMh4.jpg", "https://i.imgur.com/epiM9fg.png", "https://i.imgur.com/i0pyqxR.jpeg"],
+  images: ["https://i.imgur.com/QNxLMh4.jpg", "https://i.imgur.com/epiM9fg.png"],
 
   title: rand({ "Hey, I am Essam Wisam": 0.5, "Hello! I am Essam Wisam": 0.5 }),
 
-  roles: ["Machine Learning Engineer", "Machine Learning Researcher", "Front-end Developer", "Cross-platform Developer", "Teaching Assistant"],
+  roles: ["Machine Learning Engineer", "Machine Learning Researcher", "Front-end Developer", "Cross-platform Developer", "Teaching Assistant", "PhD Student"],
 
   roleDuration: 1600,
 
@@ -19,7 +19,7 @@ export const heroData = {
 
   downloadBText: "Download CV",
 
-  CV: "https://drive.google.com/uc?export=download&id=1uogsFCdgQ2HF1015CWxj280J7tAiy7Qu",
+  CV: "https://drive.google.com/uc?id=1EgEKE6yJhOl5sEL9n7D0mna_FlTlD4BV",
 
   extraBText: "",
 
