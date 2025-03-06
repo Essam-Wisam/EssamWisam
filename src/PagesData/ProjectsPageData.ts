@@ -28,15 +28,15 @@ export const projectData = [
     categories: ["Classical ML", "Featured"],
     skills: ["Scikit-learn", "PyTorch", "Keras", "TensorFlow"]
   },
-  {
-    title: "Stand-With-Palestine.org",
-    description: "An initiative aimed at exposing the ongoing genocide and fostering support for Palestine.",
-    image: "https://i.imgur.com/qu9JYV8.png",
-    link: "https://stand-with-palestine.org",
-    github_link: "https://github.com/PalestinianVoices/Stand-With-Palestine",
-    categories: ["Web"],
-    skills: ["TypeScript", "React", "SCSS", "Leadership"]
-  },
+  // {
+  //   title: "Stand-With-Palestine.org",
+  //   description: "An initiative aimed at exposing the ongoing genocide and fostering support for Palestine.",
+  //   image: "https://i.imgur.com/qu9JYV8.png",
+  //   link: "https://stand-with-palestine.org",
+  //   github_link: "https://github.com/PalestinianVoices/Stand-With-Palestine",
+  //   categories: ["Web"],
+  //   skills: ["TypeScript", "React", "SCSS", "Leadership"]
+  // },
   {
     title: "Memoirify",
     description: "Memoirify can magically streamline text for easier understanding and logical analysis.",
