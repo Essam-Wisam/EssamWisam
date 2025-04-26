@@ -88,16 +88,16 @@ export const timelineData = [
     buttonText: "",
     buttonLink: "",
   },
-  {
-    id: 7,
-    role: "LLMs Engineer",
-    company: "HyperSolutions",
-    date: "July 2024-Now",
-    description: [
-      "Designing and developing large language models systems including various retrieval augmented generation techniques, high-order agentic models, voice models, computer-use models, and classification systems.",
-      "Occasionally developing frontends to serve the LLM systems and in some instances, aiding in demonstrating them to customers"
-    ],
-    buttonText: "",
-    buttonLink: "",
-  },
+  // {
+  //   id: 7,
+  //   role: "LLMs Engineer",
+  //   company: "HyperSolutions",
+  //   date: "July 2024-Now",
+  //   description: [
+  //     "Designing and developing large language models systems including various retrieval augmented generation techniques, high-order agentic models, voice models, computer-use models, and classification systems.",
+  //     "Occasionally developing frontends to serve the LLM systems and in some instances, aiding in demonstrating them to customers"
+  //   ],
+  //   buttonText: "",
+  //   buttonLink: "",
+  // },
 ];
